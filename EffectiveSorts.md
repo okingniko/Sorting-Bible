@@ -201,3 +201,4 @@ void QuickSort(std::vector<ItemType> &items)
 ```
 
 ##4. 相关测试
+`make test`
