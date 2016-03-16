@@ -3,6 +3,7 @@
 2. 代码基于C++11编写，编译器使用g++4.9.2 版本。
 3. 测试数据集使用[导论](http://blog.csdn.net/okingniko/article/details/50830524)中提供的程序生成。
 4. 测试使用[导论](http://blog.csdn.net/okingniko/article/details/50830524)中提供的测试框架，加入相关的头文件，并进行相关算法调用(具体可参见[插入排序](http://blog.csdn.net/okingniko/article/details/50830629#t3)中的测试源代码)。
+
 ##1. 归并排序(Merge sort)
 ###1.1 基本思想
 - 归并排序是建立在归并操作上的一种有效的排序算法,该算法是采用分治法（Divide and Conquer）的一个非常典型的应用。将已有序的子序列合并，得到完全有序的序列；即先使每个子序列有序，再使子序列段间有序。若将两个有序表合并成一个有序表，称为二路归并。
